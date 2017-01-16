@@ -1,0 +1,7 @@
+.done-true {
+    text-decoration: line-through;
+}
+
+.done-false {
+    color: red;
+}
