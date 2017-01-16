@@ -1,0 +1,17 @@
+<h3> Forcast for {{ city }}</h3>
+<rzslider ng-model = "slider" rz-slider-model="slider.value" rz-slider-options="slider.options"></rzslider>
+          <div ng-repeat = "w in weatherResult.list">
+<div class="row">
+  <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"> {{ w.dt * 1000 | date:'EEEE, dd MMMM yyyy' }} </h3>
+        </div>
+        <div class="panel-body">
+            Daytime Temperature: <b>{{ w.temp.day | number: 0 }}ºC</b>
+        </div>
+      </div>
+  </div>
+
+</div>
+</div>
