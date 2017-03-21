@@ -23,7 +23,7 @@ app.controller('LoginController', function($scope, $http) {
               if(key == 'email'){
 								email = element[key];
 							}
-							if(key == )
+
             }
 						if($scope.loginEmail == email){
 							console.log("Login Successful on user: " + element);
